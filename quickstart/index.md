@@ -40,6 +40,8 @@ Qualify the Workbook additionally like this:
 wb.range('Sheet1', 'A1').value
 ```
 
+The good news is that these commands also work seamlessly with *NumPy arrays* and *Pandas DataFrames*.
+
 ### Call Python from Excel
 
 If, for example, you want to fill your spreadsheet with standard normally distributed random numbers, your VBA code is
