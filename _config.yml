@@ -1,0 +1,7 @@
+name: "xlwings - Make Excel Fly!"
+description: "Make Excel Fly!"
+pygments: true
+
+markdown: redcarpet
+redcarpet:
+  extensions: ['autolink', 'tables']

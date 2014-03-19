@@ -11,6 +11,9 @@
 logfiles
 .settings
 
+# Jekyll
+_site
+
 # Sphinx
 _build
 
