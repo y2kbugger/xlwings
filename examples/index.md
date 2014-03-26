@@ -16,18 +16,21 @@ This is the simplest possible example demonstrating the calculation of the Fibon
 * **Lite:** [fibonacci.zip][] (32.5 KB)
 * **Standalone:** [fibonacci_standalone.zip][] (6.3 MB)
 
+Dependencies of the Lite Version: Python, pywin32
+
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
 [fibonacci_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci_standalone.zip
 
-Dependencies of the Lite Version: Python, pywin32
 
 **Example 2: Database**
 
-This example shows how easy it is to work with databases. The sample uses [Chinook][] a popular [SQLite][] sample
+This example shows how easy it is to work with databases. This example uses [Chinook][], a popular [SQLite][] sample
 database.
 
 * **Lite:** [database.zip][] (484.4 KB)
 * **Standalone:** [database_standalone.zip][] (7.1 MB)
+
+Dependencies of the Lite Version: Python, pywin32
 
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
