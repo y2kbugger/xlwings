@@ -24,7 +24,7 @@ Dependencies of the Lite Version: Python, pywin32
 
 **Example 2: Database**
 
-This example shows how easy it is to work with databases. This example uses [Chinook][], a popular [SQLite][] sample
+This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
 * **Lite:** [database.zip][] (484.4 KB)
