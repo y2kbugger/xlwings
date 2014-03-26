@@ -11,6 +11,8 @@ Check out how easily xlwings-powered spreadsheets can be distributed by trying o
 
 **Example 1: Fibonacci Sequence**
 
+This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
+
 * **Lite:** [fibonacci.zip][] (32.5 KB)
 * **Standalone:** [fibonacci_standalone.zip][] (6.3 MB)
 
@@ -19,7 +21,18 @@ Check out how easily xlwings-powered spreadsheets can be distributed by trying o
 
 Dependencies of the Lite Version: Python, pywin32
 
-**Example 2: Coming up...**
+**Example 2: Database**
+
+This example shows how easy it is to work with databases. The sample uses [Chinook][] a popular [SQLite][] sample
+database.
+
+* **Lite:** [database.zip][] (484.4 KB)
+* **Standalone:** [database_standalone.zip][] (7.1 MB)
+
+[Chinook]: http://chinookdatabase.codeplex.com/
+[SQLite]: http://sqlite.org/
+[database.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database.zip
+[database_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database_standalone.zip
 
 ### Lite Versions
 
