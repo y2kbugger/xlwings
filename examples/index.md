@@ -13,10 +13,8 @@ Check out how easily xlwings-powered spreadsheets can be distributed by trying o
 
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
-* **Lite:** [fibonacci.zip][] (32.5 KB)
+* **Lite:** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, pywin32
 * **Standalone:** [fibonacci_standalone.zip][] (6.3 MB)
-
-Dependencies of the Lite Version: Python, pywin32
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
 [fibonacci_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci_standalone.zip
@@ -27,15 +25,27 @@ Dependencies of the Lite Version: Python, pywin32
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
-* **Lite:** [database.zip][] (484.4 KB)
+* **Lite:** [database.zip][] (484.4 KB) - Dependencies: Python, pywin32
 * **Standalone:** [database_standalone.zip][] (7.1 MB)
-
-Dependencies of the Lite Version: Python, pywin32
 
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
 [database.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database.zip
 [database_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database_standalone.zip
+
+**Example 3: Monte Carlo Simulation**
+
+This example shows the computational power of Python by performing a Monte Carlo simulation of the price development of
+a financial asset. Prices are assumed to follow a log-normal distribution.
+
+* **Lite:** [simulation.zip][] (151.1 KB) - Dependencies: Python, pywin32, NumPy
+* **Standalone:** [simulation_standalone.zip][] (16.8 MB)
+
+
+
+[simulation.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation.zip
+[simulation_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation_standalone.zip
+
 
 ### Lite Versions
 
