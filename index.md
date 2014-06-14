@@ -5,11 +5,12 @@ title: xlwings
 box_title: Why xlwings is awesome
 box: |
     * **Easy deployment**: The receiver of an xlwings-powered spreadsheets only needs [Python][] with [pywin32][]
-      installed &mdash; or nothing at all when shipped as frozen Python executable.
+      installed &mdash; or nothing at all when shipped with the Python runtime.
     * **Plug-and-Play**: No cumbersome installation of Excel add-ins or license keys.
     * **Flexible**: Works with pretty much every combination of Windows, Excel and Python.
     * **Two way communication**: Call Python from Excel or interact with Excel from Python.
     * **Free and open-source**: xlwings is released under a permissive [BSD-License][].
+    * **Unintrusive**: No addin installation, no additional Python installation, no special command window.
 
     [Python]: http://www.python.org
     [BSD-License]: http://opensource.org/licenses/BSD-3-Clause
