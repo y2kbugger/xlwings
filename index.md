@@ -21,6 +21,10 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis.
 
+#### NEWS: xlwings v0.1.1 has been released, see [here][]!
+
+[here]: http://docs.xlwings.org/whatsnew.html#v0-1-1-june-27-2014
+
 <div style="text-align:center">
     <a href="https://twitter.com/ZoomerAnalytics" class="twitter-follow-button" data-show-count="false">Follow @ZoomerAnalytics</a>
 </div>
@@ -32,3 +36,4 @@ box: |
         src="//www.youtube.com/embed/Z80kyLcG6JI?rel=0" frameborder="0" allowfullscreen>
     </iframe>
 </div>
+

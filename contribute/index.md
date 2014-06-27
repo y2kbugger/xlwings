@@ -9,7 +9,7 @@ title: "Contribute"
 xlwings is hosted on [GitHub][]. Fork it and submit a pull request!
 
 
-### Issues
+### Bug Reports and Feature Requests
 Please submit bug reports and enhancement requests directly on the [issues][] page.
 
 [GitHub]: https://github.com/ZoomerAnalytics/xlwings

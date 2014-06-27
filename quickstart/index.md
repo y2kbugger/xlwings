@@ -13,6 +13,14 @@ The easiest way to install xlwings wings is via the command prompt and pip:
 pip install xlwings
 ```
 
+Alternatively, it can be installed via conda on an Anaconda distribution:
+
+```python
+conda install xlwings
+```
+
+Note that xlwings is already included in [Anaconda 2.0][] (Python 2.7 version).
+
 ### Interact with Excel from Python
 
 Writing/reading values to/from Excel and adding a chart is as easy as:
@@ -87,3 +95,4 @@ Deployment is really the part that makes xlwings so awesome (head over to the [e
 [pywin32]: http://sourceforge.net/projects/pywin32
 [Docs]: http://docs.xlwings.org
 [Examples]: /examples
+[Anaconda 2.0]: https://store.continuum.io/cshop/anaconda/
