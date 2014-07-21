@@ -23,7 +23,12 @@ box: |
 
 #### Current release: v0.1.1, see [release notes][].
 
+#### See also this [lightning talk][] about [xlwings][] and [ExcelPython][] at the EuroPython 2014.
+
 [release notes]: http://docs.xlwings.org/whatsnew.html#v0-1-1-june-27-2014
+[lightning talk]: https://www.youtube.com/watch?v=qDzeSGv28kU
+[xlwings]: http://xlwings.org
+[ExcelPython]: https://github.com/ericremoreynolds/excelpython
 
 
 <div class="video-container">
