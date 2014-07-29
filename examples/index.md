@@ -5,7 +5,9 @@ title: "Examples"
 
 ## Examples
 
-Check out how easily xlwings-powered spreadsheets can be distributed by trying out these examples:
+Note: From v0.2.0, the lite examples now require the latest version of xlwings installed. Also, the examples currently
+only run on Windows out of the box, i.e. by pressing the button. To run them on Mac, you will need to call the sample
+file from python, for example: ``$ python fibonacci.py``.
 
 ### Instructions
 
