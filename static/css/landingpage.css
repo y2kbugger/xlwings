@@ -14,6 +14,13 @@ h2 {
 
 h4{
     font-weight: 700;
+    color: #e26901;
+    text-align: center;
+    font-size: 140%;
+}
+
+h5{
+    font-weight: 700;
     /*color: #e26901;*/
     text-align: center;
     font-size: 140%;

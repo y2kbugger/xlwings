@@ -7,13 +7,24 @@ title: "Examples"
 
 Check out how easily xlwings-powered spreadsheets can be distributed by trying out these examples:
 
+### Instructions
+
+1. Download the zip-file
+2. Right-Click > Extract All... > Extract
+3. Open the Spreadsheet in the unzipped folder
+4. "Protected View": click on "Enable Editing"
+5. Optional: If Excel gives you an additional "Security Warning": click on "Enable Content", then
+   please close and reopen the file
+6. Run the examples by clicking on the "Run" button
+
+
 ### Downloads
 
 **Example 1: Fibonacci Sequence**
 
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
-* **Lite:** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, pywin32
+* **Lite:** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, pywin32, xlwings
 * **Standalone:** [fibonacci_standalone.zip][] (6.3 MB)
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
@@ -25,7 +36,7 @@ This is the simplest possible example demonstrating the calculation of the Fibon
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
-* **Lite:** [database.zip][] (484.4 KB) - Dependencies: Python, pywin32
+* **Lite:** [database.zip][] (484.4 KB) - Dependencies: Python, pywin32, xlwings
 * **Standalone:** [database_standalone.zip][] (7.1 MB)
 
 [Chinook]: http://chinookdatabase.codeplex.com/
@@ -38,7 +49,7 @@ database.
 This example shows the computational power of Python by performing a Monte Carlo simulation of the price development of
 a financial asset. Prices are assumed to follow a log-normal distribution.
 
-* **Lite:** [simulation.zip][] (151.1 KB) - Dependencies: Python, pywin32, NumPy
+* **Lite:** [simulation.zip][] (151.1 KB) - Dependencies: Python, pywin32, xlwings, NumPy
 * **Standalone:** [simulation_standalone.zip][] (16.8 MB)
 
 
@@ -49,9 +60,9 @@ a financial asset. Prices are assumed to follow a log-normal distribution.
 
 ### Lite Versions
 
-These versions are small in size but require an installation of Python. It is highly recommended to install one of the
-following scientific Python distributions as they already contain all of the necessary packages used in the examples,
-most importantly pywin32, numpy, scipy and pandas.
+These versions are small in size but require an installation of Python with xlwings. It is highly recommended to install
+one of the following scientific Python distributions as they already contain all of the necessary packages used in the
+examples, most importantly pywin32, numpy, scipy and pandas.
 
 * [Anaconda](https://store.continuum.io/cshop/anaconda/)
 * [WinPython](http://winpython.sourceforge.net/) (see Notes below)
@@ -63,16 +74,6 @@ most importantly pywin32, numpy, scipy and pandas.
 
 These versions run out-of-the-box after unzipping without any dependencies but are bigger in size.
 
-
-### Instructions
-
-1. Download the zip-file
-2. Right-Click > Extract All... > Extract
-3. Open the Spreadsheet in the unzipped folder
-4. "Protected View": click on "Enable Editing"
-5. Optional: If Excel gives you an additional "Security Warning": click on "Enable Content", then
-   please close and reopen the file
-6. Run the examples by clicking on the "Run" button
 
 ### Notes
 

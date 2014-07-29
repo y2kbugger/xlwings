@@ -6,11 +6,11 @@ box_title: Why xlwings is awesome
 box: |
     * **Easy deployment**: The receiver of an xlwings-powered spreadsheets only needs [Python][] with [pywin32][]
       installed &mdash; or nothing at all when shipped with the Python runtime.
+    * **Cross-Platform**: xlwings works with Microsoft Excel on Windows and Mac.
     * **Plug-and-Play**: No cumbersome installation of Excel add-ins or license keys.
     * **Flexible**: Works with pretty much every combination of Windows, Excel and Python.
     * **Two way communication**: Call Python from Excel or interact with Excel from Python.
     * **Free and open-source**: xlwings is released under a permissive [BSD-License][].
-    * **Unintrusive**: No addin installation, no additional Python installation, no special command window.
 
     [Python]: http://www.python.org
     [BSD-License]: http://opensource.org/licenses/BSD-3-Clause
@@ -21,14 +21,11 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis.
 
-#### Current release: v0.1.1, see [release notes][].
+#### NEWS: v0.2.0 adds native Mac support, see [release notes][] and [lightning talk][].
 
-#### See also this [lightning talk][] about [xlwings][] and [ExcelPython][] at the EuroPython 2014.
 
-[release notes]: http://docs.xlwings.org/whatsnew.html#v0-1-1-june-27-2014
+[release notes]: http://docs.xlwings.org/whatsnew.html#v0-2-0-july-29-2014
 [lightning talk]: https://www.youtube.com/watch?v=qDzeSGv28kU
-[xlwings]: http://xlwings.org
-[ExcelPython]: https://github.com/ericremoreynolds/excelpython
 
 
 <div class="video-container">
