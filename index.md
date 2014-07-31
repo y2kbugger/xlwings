@@ -17,9 +17,9 @@ box: |
     [pywin32]: http://sourceforge.net/projects/pywin32/
 ---
 
-# Make Excel Fly!
+# Make Excel fly with Python!
 
-## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis.
+## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
 #### NEWS: v0.2.0 adds native Mac support, see [release notes][] and [lightning talk][].
 

@@ -1,6 +1,7 @@
-name: "xlwings - Make Excel Fly!"
-description: "Make Excel Fly!"
-pygments: true
+name: "xlwings - Replace Excel VBA with Python!"
+description: "xlwings is a free and open-source alternative to VBA that allows you to program Microsoft Excel with Python. It works on Windows and Mac."
+keywords: "Excel, VBA, Alternative, Python, Macro, Spreadsheet, open-source"
+
 
 markdown: redcarpet
 redcarpet:
