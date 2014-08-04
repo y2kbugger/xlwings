@@ -40,12 +40,13 @@ Qualify the Workbook additionally like this:
 wb.range('Sheet1', 'A1').value
 ```
 
-The good news is that these commands also work seamlessly with *NumPy arrays* and *Pandas DataFrames*.
+The good news is that these commands also work seamlessly with **NumPy arrays** and **Pandas DataFrames**.
 
-### Call Python from Excel (Windows only)
+### Call Python from Excel (Mac support to come in v0.2.1)
 
-This functionality is currently only available on Windows: If, for example, you want to fill your spreadsheet
-with standard normally distributed random numbers, your VBA code is just one line:
+This functionality is currently only available on Windows but Mac support will be added with the next release v0.2.1:
+If, for example, you want to fill your spreadsheet with standard normally distributed random numbers, your VBA code
+is just one line:
 
 ```vbnet
 Sub RandomNumbers()
