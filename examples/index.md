@@ -5,14 +5,14 @@ title: "Examples"
 
 ## Examples
 
-Note: From v0.2.0, the lite examples now require the latest version of xlwings installed. Also, the examples currently
-only run on Windows out of the box, i.e. by pressing the button. To run them on Mac, you will need to call the sample
-file from python, for example: ``$ python fibonacci.py``.
+**Note**: The lite examples now require the latest version of xlwings installed. Also, the only sample that currently works
+on Windows and Mac is the Fibonacci Lite sample. The others use ActiveX controls that are not supported on Mac. This
+will be changed at some point to make them all cross-platform. Standalone samples work on Windows only.
 
 ### Instructions
 
 1. Download the zip-file
-2. Right-Click > Extract All... > Extract
+2. Windows: Right-Click > Extract All... > Extract / Mac: Double-click the zip-file
 3. Open the Spreadsheet in the unzipped folder
 4. "Protected View": click on "Enable Editing"
 5. Optional: If Excel gives you an additional "Security Warning": click on "Enable Content", then
@@ -26,8 +26,8 @@ file from python, for example: ``$ python fibonacci.py``.
 
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
-* **Lite:** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, pywin32, xlwings
-* **Standalone:** [fibonacci_standalone.zip][] (6.3 MB)
+* **Lite (Win & Mac):** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, pywin32, xlwings
+* **Standalone (Win):** [fibonacci_standalone.zip][] (6.3 MB)
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
 [fibonacci_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci_standalone.zip
@@ -38,8 +38,8 @@ This is the simplest possible example demonstrating the calculation of the Fibon
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
-* **Lite:** [database.zip][] (484.4 KB) - Dependencies: Python, pywin32, xlwings
-* **Standalone:** [database_standalone.zip][] (7.1 MB)
+* **Lite (Win):** [database.zip][] (484.4 KB) - Dependencies: Python, pywin32, xlwings
+* **Standalone (Win):** [database_standalone.zip][] (7.1 MB)
 
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
@@ -51,8 +51,8 @@ database.
 This example shows the computational power of Python by performing a Monte Carlo simulation of the price development of
 a financial asset. Prices are assumed to follow a log-normal distribution.
 
-* **Lite:** [simulation.zip][] (151.1 KB) - Dependencies: Python, pywin32, xlwings, NumPy
-* **Standalone:** [simulation_standalone.zip][] (16.8 MB)
+* **Lite (Win):** [simulation.zip][] (151.1 KB) - Dependencies: Python, pywin32, xlwings, NumPy
+* **Standalone (Win):** [simulation_standalone.zip][] (16.8 MB)
 
 
 
