@@ -26,7 +26,7 @@ will be changed at some point to make them all cross-platform. Standalone sample
 
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
-* **Lite (Win & Mac):** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, pywin32, xlwings
+* **Lite (Win & Mac):** [fibonacci.zip][] (32.5 KB) - Dependencies: Python, xlwings
 * **Standalone (Win):** [fibonacci_standalone.zip][] (6.3 MB)
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
@@ -38,7 +38,7 @@ This is the simplest possible example demonstrating the calculation of the Fibon
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
-* **Lite (Win):** [database.zip][] (484.4 KB) - Dependencies: Python, pywin32, xlwings
+* **Lite (Win):** [database.zip][] (484.4 KB) - Dependencies: Python, xlwings
 * **Standalone (Win):** [database_standalone.zip][] (7.1 MB)
 
 [Chinook]: http://chinookdatabase.codeplex.com/
@@ -51,7 +51,7 @@ database.
 This example shows the computational power of Python by performing a Monte Carlo simulation of the price development of
 a financial asset. Prices are assumed to follow a log-normal distribution.
 
-* **Lite (Win):** [simulation.zip][] (151.1 KB) - Dependencies: Python, pywin32, xlwings, NumPy
+* **Lite (Win):** [simulation.zip][] (151.1 KB) - Dependencies: Python, xlwings, NumPy
 * **Standalone (Win):** [simulation_standalone.zip][] (16.8 MB)
 
 
