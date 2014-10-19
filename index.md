@@ -28,8 +28,6 @@ box: |
 
 
 <div class="video-container">
-    <iframe
-        src="//www.youtube.com/embed/Z80kyLcG6JI?rel=0" frameborder="0" allowfullscreen>
-    </iframe>
+<iframe src="//fast.wistia.net/embed/iframe/fb3pft6wdu?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="400"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 </div>
 
