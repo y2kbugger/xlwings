@@ -21,10 +21,13 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### NEW: Current Release (Oct 17th 2014): v0.2.3, see [release notes][].
+#### Current Release (Oct 17th 2014): v0.2.3, see [release notes][].
+
+#### Blog Post: [Build your own Google Analytics Dashboard in Excel for free!][]
 
 
 [release notes]: http://docs.xlwings.org/en/latest/whatsnew.html#v0-2-3-october-17-2014
+[Build your own Google Analytics Dashboard in Excel for free!]: http://blog.zoomeranalytics.com/google-analytics/
 
 
 <div class="video-container">
