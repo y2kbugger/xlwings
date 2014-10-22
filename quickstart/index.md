@@ -43,9 +43,9 @@ Chart.add('Sheet1', source_data=Range('Sheet1', 'A1').table)
 Qualify the Workbook additionally like this:
 
 ```python
-Range('Sheet1', 'A1:C3').value
-Range(1, (1,1), (3,3)).value  # index notation
-Chart.add('Sheet1', source_data=Range('Sheet1', 'A1').table)
+Range('Sheet1', 'A1', wkb=wb).value
+Chart.add('Sheet1', wkb=wb, source_data=Range('Sheet1', 'A1', wkb=wb).table)
+Sheet(1, wkb=wb).name
 ```
 or simply set the current workbook first:
 
