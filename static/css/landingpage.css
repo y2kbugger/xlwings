@@ -25,3 +25,11 @@ h5{
     text-align: center;
     font-size: 140%;
 }
+
+body {
+  margin-top: 20px;
+}
+
+.panel-warning>.panel-heading {
+  background-color: #e26901;
+}
