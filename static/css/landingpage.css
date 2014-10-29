@@ -26,9 +26,9 @@ h5{
     font-size: 140%;
 }
 
-body {
-  margin-top: 20px;
-}
+/*body {*/
+  /*margin-top: 20px;*/
+/*}*/
 
 .panel-warning>.panel-heading {
   background-color: #e26901;
