@@ -24,19 +24,19 @@ box: |
     <h3 class="panel-title">Upcoming Events</h3>
   </div>
   <div class="panel-body">
+    Registration for the workshop (limited seats) is now open:
     <ul>
     <li>
         <strong>28 Nov 2014 (Conference)</strong>: <a href="http://www.forpythonquants.com/" onclick="trackOutboundLink('http://www.forpythonquants.com/'); return false;" target="_blank"> For Python Quants</a> (London)
         - Includes talk about building financial applications with xlwings.
     </li>
     <li>
-        <strong>9 Dec 2014 (1-day Workshop)</strong>: Quant Finance with Excel and Python (London) -
-        Includes trainings on xlwings, <a href="http://ericremoreynolds.github.io/excelpython/" target="_blank"> ExcelPython</a>, <a href="http://www.spreadgit.com" target="_blank"> spreadgit </a> and <a href="http://shop.oreilly.com/product/0636920032441.do" target="_blank"> Python for Finance</a>, all by their respective authors - details will follow.
-        Send us a note <a href="http://www.zoomeranalytics.com/contact/" target="_blank"> here</a> and we will send you an email once registration opens.
+        <strong>9 Dec 2014 (1-day Workshop)</strong>: <a href="http://www.zoomeranalytics.com/training/">Finance with Excel and Python</a> (London)
     </li>
     <li>
         <strong>9 Dec 2014 (Meetup Group)</strong>: <a href="http://www.meetup.com/Python-for-Quant-Finance-London/" onclick="trackOutboundLink('http://www.meetup.com/Python-for-Quant-Finance-London/'); return false;" target="_blank"> Python for Quant Finance</a> (London)
     </li>
+
     </ul>
   </div>
 </div>
