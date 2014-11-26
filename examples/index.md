@@ -5,6 +5,9 @@ title: "Examples"
 
 ## Examples
 
+**Note**: The downloads haven't been updated yet to v0.3.0 - please refer to https://github.com/ZoomerAnalytics/xlwings/tree/master/examples
+for updated versions for now.
+
 **Note**: The lite examples now require the latest version of xlwings installed. Also, the only sample that currently works
 on Windows and Mac is the Fibonacci Lite sample. The others use ActiveX controls that are not supported on Mac. This
 will be changed at some point to make them all cross-platform. Standalone samples work on Windows only.
