@@ -67,7 +67,7 @@ one of the following scientific Python distributions as they already contain all
 examples, most importantly pywin32, numpy, scipy and pandas.
 
 * [Anaconda](https://store.continuum.io/cshop/anaconda/)
-* [WinPython](http://winpython.sourceforge.net/) (see Notes below)
+* [WinPython](https://winpython.github.io/) (see Notes below)
 * [Canopy](https://www.enthought.com/products/canopy/)
 * [Python(x,y)](https://code.google.com/p/pythonxy/)
 
