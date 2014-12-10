@@ -35,12 +35,3 @@ box: |
       </div>
     </div>
 </div>
-
-<div class="panel panel-warning">
-  <div class="panel-heading">
-    <h3 class="panel-title">Upcoming Training</h3>
-  </div>
-  <div class="panel-body">
-        <strong>9 Dec 2014 (1-day Workshop)</strong>: <a href="http://www.zoomeranalytics.com/training/">Finance with Excel and Python</a> (London)
-  </div>
-</div>
