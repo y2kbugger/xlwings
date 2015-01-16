@@ -5,7 +5,7 @@ title: "Examples"
 
 ## Examples
 
-**Note**: Standalone versions are currently unavailable.
+**Note**: Standalone versions are currently unavailable. Lite examples require xlwings v0.3.1.
 
 ### Instructions
 
@@ -50,7 +50,7 @@ database.
 
 ### Lite Versions
 
-These versions are small in size but require an installation of Python with xlwings. It is highly recommended to install
+These versions are small in size but require an installation of Python with **xlwings v0.3.1**. It is highly recommended to install
 one of the following scientific Python distributions as they already contain all of the necessary packages used in the
 examples, most importantly pywin32, numpy, scipy and pandas.
 
