@@ -19,7 +19,7 @@ title: "Examples"
 
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
-* **Lite (Win & Mac):** [fibonacci.zip][] (33 KB) - Dependencies: Python, xlwings
+* **Lite (Win & Mac):** [fibonacci.zip][] (42 KB) - Dependencies: Python, xlwings
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
 [fibonacci_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci_standalone.zip
@@ -29,14 +29,14 @@ This is the simplest possible example demonstrating the calculation of the Fibon
 This example shows the computational power of Python by performing a Monte Carlo simulation of the price development of
 a financial asset. Prices are assumed to follow a log-normal distribution.
 
-* **Lite (Win & Mac):** [simulation.zip][] (152 KB) - Dependencies: Python, xlwings, NumPy
+* **Lite (Win & Mac):** [simulation.zip][] (50 KB) - Dependencies: Python, xlwings, NumPy
 
 **Example 3: Database**
 
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
-* **Lite (Win):** [database.zip][] (485 KB) - Dependencies: Python, xlwings
+* **Lite (Win):** [database.zip][] (392 KB) - Dependencies: Python, xlwings
 
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
