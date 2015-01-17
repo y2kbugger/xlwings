@@ -21,7 +21,7 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### Current Release (Jan 16th 2015): v0.3.1, see [release notes][].
+#### Current Release (Jan 17th 2015): v0.3.2, see [release notes][].
 
 
 [release notes]: http://docs.xlwings.org/en/latest/whatsnew.html
