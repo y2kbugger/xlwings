@@ -36,7 +36,7 @@ a financial asset. Prices are assumed to follow a log-normal distribution.
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
-* **Lite (Win):** [database.zip][] (392 KB) - Dependencies: Python, xlwings
+* **Lite (Windows only!):** [database.zip][] (392 KB) - Dependencies: Python, xlwings
 
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
