@@ -61,7 +61,7 @@ examples, most importantly pywin32, numpy, scipy and pandas.
 * [Python(x,y)](https://code.google.com/p/pythonxy/)
 
 
-### Standalone Versions (currently unavailable)
+### Standalone Versions
 
 These versions run out-of-the-box after unzipping without any dependencies but are bigger in size.
 
