@@ -5,13 +5,13 @@ title: "Examples"
 
 ## Examples
 
-**Note**: Standalone versions are currently unavailable. Lite examples require xlwings v0.3.2.
-
 ### Instructions
 
 1. Download the zip-file
 2. Windows: Right-Click > Extract All... > Extract / Mac: Double-click the zip-file
 3. Open the Spreadsheet in the unzipped folder
+
+**Note**: Lite examples require a Python installation with xlwings v0.3.2.
 
 ### Downloads
 
@@ -20,6 +20,7 @@ title: "Examples"
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
 * **Lite (Win & Mac):** [fibonacci.zip][] (42 KB) - Dependencies: Python, xlwings
+* **Standalone (Win):** [fibonacci_standalone.zip][] (6.6 MB)
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
 [fibonacci_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci_standalone.zip
