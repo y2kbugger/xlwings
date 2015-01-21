@@ -31,6 +31,7 @@ This example shows the computational power of Python by performing a Monte Carlo
 a financial asset. Prices are assumed to follow a log-normal distribution.
 
 * **Lite (Win & Mac):** [simulation.zip][] (50 KB) - Dependencies: Python, xlwings, NumPy
+* **Standalone (Win):** [simulation_standalone.zip][] (16.4 MB)
 
 **Example 3: Database**
 
