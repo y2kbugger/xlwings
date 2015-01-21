@@ -8,10 +8,10 @@ title: "Examples"
 ### Instructions
 
 1. Download the zip-file
-2. Windows: Right-Click > Extract All... > Extract / Mac: Double-click the zip-file
+2. Extract the zip file (Windows: Right-Click > Extract All... > Extract / Mac: Double-click the zip-file)
 3. Open the Spreadsheet in the unzipped folder
 
-**Note**: Lite examples require a Python installation with xlwings v0.3.2.
+**Note**: Lite examples require a Python installation with xlwings v0.3.2. Standalone versions currently only run on Windows.
 
 ### Downloads
 
@@ -33,22 +33,28 @@ a financial asset. Prices are assumed to follow a log-normal distribution.
 * **Lite (Win & Mac):** [simulation.zip][] (50 KB) - Dependencies: Python, xlwings, NumPy
 * **Standalone (Win):** [simulation_standalone.zip][] (16.4 MB)
 
-**Example 3: Database**
+**Example 3: Database (Currently Windows only)**
 
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
 
 * **Lite (Windows only!):** [database.zip][] (392 KB) - Dependencies: Python, xlwings
 
+**Example 4: Google Analytics Dashboard**
+
+Please follow this [blogpost][] that guides through the example in detail!
+
+* **Lite (Win & Mac):** [ga_dashboard.zip][] (70 KB) - Dependencies: Python, xlwings, google-api-python-client, python-gflags
+
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
 [database.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database.zip
 [database_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database_standalone.zip
-
+[blogpost]: http://blog.zoomeranalytics.com/google-analytics/
 
 [simulation.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation.zip
 [simulation_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation_standalone.zip
-
+[ga_dashboard.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/ga_dashboard.zip
 
 ### Lite Versions
 
