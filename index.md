@@ -21,7 +21,7 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### Current Release (Jan 17th 2015): v0.3.2, see [release notes][].
+#### Current Release (March 8, 2015): v0.3.3, see [release notes][].
 
 
 [release notes]: http://docs.xlwings.org/en/latest/whatsnew.html
@@ -35,3 +35,8 @@ box: |
       </div>
     </div>
 </div>
+
+**Note**: The video has been made for v0.1.0 and is now incorrect in two places:
+
+* The line `In [24]` should now read: `Range('A2', wkb=wb, asarray=True).table.value`
+* At minute 4.47: Line 4 should be replaced with `wb = Workbook.caller()` and moved within the function definition.
