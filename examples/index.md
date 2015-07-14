@@ -11,7 +11,7 @@ title: "Examples"
 2. Extract the zip file (Windows: Right-Click > Extract All... > Extract / Mac: Double-click the zip-file)
 3. Open the Spreadsheet in the unzipped folder
 
-**Note**: Lite examples require a Python installation with xlwings v0.3.2. Standalone versions currently only run on Windows.
+**Note**: Lite examples require a Python installation with xlwings >=v0.3.6. Standalone versions currently only run on Windows.
 
 ### Downloads
 
@@ -19,8 +19,8 @@ title: "Examples"
 
 This is the simplest possible example demonstrating the calculation of the Fibonacci sequence.
 
-* **Lite (Win & Mac):** [fibonacci.zip][] (42 KB) - Dependencies: Python, xlwings
-* **Standalone (Win):** [fibonacci_standalone.zip][] (6.6 MB)
+* **Lite (Win & Mac):** [fibonacci.zip][] (41 KB) - Dependencies: Python, xlwings
+* **Standalone (Win):** [fibonacci_standalone.zip][] (14.6 MB)
 
 [fibonacci.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci.zip
 [fibonacci_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/fibonacci_standalone.zip
@@ -30,8 +30,8 @@ This is the simplest possible example demonstrating the calculation of the Fibon
 This example shows the computational power of Python by performing a Monte Carlo simulation of the price development of
 a financial asset. Prices are assumed to follow a log-normal distribution.
 
-* **Lite (Win & Mac):** [simulation.zip][] (50 KB) - Dependencies: Python, xlwings, NumPy
-* **Standalone (Win):** [simulation_standalone.zip][] (16.4 MB)
+* **Lite (Win & Mac):** [simulation.zip][] (52 KB) - Dependencies: Python, xlwings, NumPy
+* **Standalone (Win):** [simulation_standalone.zip][] (16.5 MB)
 
 **Example 3: Database (Currently Windows only)**
 
@@ -58,7 +58,7 @@ Please follow this [blogpost][] that guides through the example in detail!
 
 ### Lite Versions
 
-These versions are small in size but require an installation of Python with **xlwings v0.3.2**. It is highly recommended to install
+These versions are small in size but require an installation of Python with **xlwings >=v0.3.6**. It is highly recommended to install
 one of the following scientific Python distributions as they already contain most of the necessary packages used in the
 examples, most importantly pywin32, numpy, scipy and pandas.
 
