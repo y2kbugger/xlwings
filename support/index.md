@@ -7,7 +7,7 @@ title: "Support"
 
 ### Community support
 
-The suggested way to get help is by searching/asking a question on [StackOverflow][].
+The suggested way to get help is by searching/asking a question on [StackOverflow][]. Tag questions with the `xlwings` tag.
 
 ### Professional support
 
