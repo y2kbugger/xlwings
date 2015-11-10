@@ -46,6 +46,10 @@ Please follow this [blogpost][] that guides through the example in detail!
 
 * **Lite (Win & Mac):** [ga_dashboard.zip][] (70 KB) - Dependencies: Python, xlwings, google-api-python-client, python-gflags
 
+**Example 5: Matplotlib**
+
+* **Lite (Win & Mac):** [mpl.zip][] (173 KB) - Dependencies: Python, xlwings, matplotlib
+
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
 [database.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database.zip
@@ -55,6 +59,7 @@ Please follow this [blogpost][] that guides through the example in detail!
 [simulation.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation.zip
 [simulation_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation_standalone.zip
 [ga_dashboard.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/ga_dashboard.zip
+[ga_dashboard.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/mpl.zip
 
 ### Lite Versions
 
