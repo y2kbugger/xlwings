@@ -59,7 +59,7 @@ Please follow this [blogpost][] that guides through the example in detail!
 [simulation.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation.zip
 [simulation_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation_standalone.zip
 [ga_dashboard.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/ga_dashboard.zip
-[ga_dashboard.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/mpl.zip
+[mpl.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/mpl.zip
 
 ### Lite Versions
 
