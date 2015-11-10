@@ -21,11 +21,12 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### Latest Release (September 27, 2015): v0.4.1 makes it easier than ever to connect to Excel, see [release notes][] for details.
+#### Latest Release (November 10, 2015): v0.5.0 ads support for Matplotlib [watch!][] and see [release notes][] for details.
 
 #### Shape the future of xlwings: <a href="https://zoomeranalytics.uservoice.com/forums/269851-xlwings" class="alert-link">xlwings feature requests</a>.
 
 [release notes]: http://docs.xlwings.org/en/latest/whatsnew.html
+[watch!]: https://twitter.com/ZoomerAnalytics/status/664159348822835200
 
 <div class="row">
   <div class="col-lg-3">
