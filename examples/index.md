@@ -33,7 +33,7 @@ a financial asset. Prices are assumed to follow a log-normal distribution.
 * **Lite (Win & Mac):** [simulation.zip][] (52 KB) - Dependencies: Python, xlwings, NumPy
 * **Standalone (Win):** [simulation_standalone.zip][] (16.5 MB)
 
-**Example 3: Database (Currently Windows only)**
+**Example 3: Database - Windows only**
 
 This example shows how easy it is to work with databases. It uses [Chinook][], a popular [SQLite][] sample
 database.
@@ -50,6 +50,11 @@ Please follow this [blogpost][] that guides through the example in detail!
 
 * **Lite (Win & Mac):** [mpl.zip][] (173 KB) - Dependencies: Python, xlwings, matplotlib
 
+**Example 6: User Defined Functions (UDFs) - Windows only**
+
+* **Lite (Win):** [udf.zip][] (53 KB) - Dependencies: Python, xlwings, matplotlib
+
+
 [Chinook]: http://chinookdatabase.codeplex.com/
 [SQLite]: http://sqlite.org/
 [database.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/database.zip
@@ -60,6 +65,7 @@ Please follow this [blogpost][] that guides through the example in detail!
 [simulation_standalone.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/simulation_standalone.zip
 [ga_dashboard.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/ga_dashboard.zip
 [mpl.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/mpl.zip
+[udf.zip]: https://bitbucket.org/zoomeranalytics/xlwings_examples/downloads/udf.zip
 
 ### Lite Versions
 

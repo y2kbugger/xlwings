@@ -10,6 +10,7 @@ box: |
     * **Plug-and-Play**: No cumbersome installation of Excel add-ins or license keys.
     * **Flexible**: Works with pretty much every combination of Excel and Python.
     * **Two way communication**: Call Python from Excel or interact with Excel from Python.
+    * **User Defined Functions (UDFs)**: Supported on Windows.
     * **Free and open-source**: xlwings is released under a permissive [BSD-License][].
 
     [Python]: http://www.python.org
@@ -21,7 +22,7 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### Latest Release (November 10, 2015): v0.5.0 ads support for Matplotlib [watch!][] and see [release notes][] for details.
+#### Latest Release v0.6.0 (Nov 30, 2015): Adds support for User Defined Functions (UDFs) on Windows and a new Command Line Client, see [release notes][] for details.
 
 #### Shape the future of xlwings: <a href="https://zoomeranalytics.uservoice.com/forums/269851-xlwings" class="alert-link">xlwings feature requests</a>.
 
