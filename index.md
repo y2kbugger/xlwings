@@ -22,7 +22,7 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### Latest Release v0.6.0 (Nov 30, 2015): Adds support for User Defined Functions (UDFs) on Windows and a new Command Line Client, see [release notes][] for details.
+#### Latest Release v0.6.1 (Dec 4, 2015): Adds support for User Defined Functions (UDFs) on Windows and a new Command Line Client, see [release notes][] for details.
 
 #### Shape the future of xlwings: <a href="https://zoomeranalytics.uservoice.com/forums/269851-xlwings" class="alert-link">xlwings feature requests</a>.
 
