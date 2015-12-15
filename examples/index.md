@@ -11,7 +11,7 @@ title: "Examples"
 2. Extract the zip file (Windows: Right-Click > Extract All... > Extract / Mac: Double-click the zip-file)
 3. Open the Spreadsheet in the unzipped folder
 
-**Note**: Lite examples require a Python installation with xlwings >=v0.4.0. Standalone versions currently only run on Windows.
+**Note**: Lite examples require a Python installation with xlwings >=v0.6.2. Standalone versions currently only run on Windows.
 
 ### Downloads
 
