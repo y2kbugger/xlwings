@@ -22,7 +22,7 @@ box: |
 
 ## Replace your VBA code with Python, a powerful yet easy-to-use programming language that is highly suited for numerical analysis. Supports Windows & Mac!
 
-#### Latest Release v0.6.3 (Dec 18, 2015): Yay! RunPython is now supported on Mac Excel 2016! see [release notes][] for details.
+#### Latest Release v0.6.4 (Jan 6, 2016): New quickstart command! see [release notes][] for details.
 
 #### Shape the future of xlwings: <a href="https://zoomeranalytics.uservoice.com/forums/269851-xlwings" class="alert-link">xlwings feature requests</a>.
 
