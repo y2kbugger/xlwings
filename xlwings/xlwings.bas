@@ -62,6 +62,7 @@ Function PyScriptPath() As String
     Dim LOG_FILE As String, UDF_PATH As String
     Dim Res As Integer
     Dim SHOW_LOG As Boolean, OPTIMIZED_CONNECTION As Boolean
+    Dim objShell As Object
 
     ' Get the settings
     Res = Settings(PYTHON_WIN, PYTHON_MAC, PYTHON_FROZEN, PYTHONPATH, UDF_PATH, LOG_FILE, SHOW_LOG, OPTIMIZED_CONNECTION)
@@ -70,7 +71,9 @@ Function PyScriptPath() As String
         PyScriptPath = Left$(ThisWorkbook.Name, Len(ThisWorkbook.Name) - 5) ' assume that it ends in .xlsm
         PyScriptPath = ThisWorkbook.Path + Application.PathSeparator + PyScriptPath + ".py"
     Else
-        PyScriptPath = UDF_PATH
+        Set objShell = CreateObject("WScript.Shell")
+        PyScriptPath = objShell.ExpandEnvironmentStrings(UDF_PATH)
+        PyScriptPath = Replace(PyScriptPath, "\", "/")
     End If
 End Function
 
@@ -220,6 +223,7 @@ Sub ExecuteWindows(IsFrozen As Boolean, PythonCommand As String, PYTHON_WIN As S
     Set Wsh = CreateObject("WScript.Shell")
     Dim DriveCommand As String, RunCommand As String, WORKBOOK_FULLNAME As String
     Dim ExitCode As Integer
+    Dim objShell As Object
 
     If LOG_FILE = "" Then
         LOG_FILE = Environ("APPDATA") + "\xlwings_log.txt"
@@ -239,6 +243,9 @@ Sub ExecuteWindows(IsFrozen As Boolean, PythonCommand As String, PYTHON_WIN As S
     WORKBOOK_FULLNAME = ThisWorkbook.FullName
 
     If IsFrozen = False Then
+        Set objShell = CreateObject("WScript.Shell")
+        PYTHONPATH = objShell.ExpandEnvironmentStrings(PYTHONPATH)
+        PYTHONPATH = Replace(PYTHONPATH, "\", "/")
         RunCommand = "python -c ""import sys; sys.path.extend(r'" & PYTHONPATH & "'.split(';')); " & PythonCommand & """ "
     ElseIf IsFrozen = True Then
         RunCommand = PythonCommand & " "
@@ -291,9 +298,13 @@ Function ReadFile(ByVal FileName As String)
     Dim Content As String
     Dim Token As String
     Dim FileNum As Integer
+    Dim objShell As Object
 
     #If Mac Then
         FileName = ToMacPath(FileName)
+    #Else
+        Set objShell = CreateObject("WScript.Shell")
+        FileName = objShell.ExpandEnvironmentStrings(FileName)
     #End If
 
     FileNum = FreeFile
@@ -456,8 +467,12 @@ Function XLPyCommand()
     Dim LOG_FILE As String, UDF_PATH As String, Tail As String
     Dim Res As Integer
     Dim SHOW_LOG As Boolean, OPTIMIZED_CONNECTION As Boolean
+    Dim objShell As Object
 
     Res = Settings(PYTHON_WIN, PYTHON_MAC, PYTHON_FROZEN, PYTHONPATH, UDF_PATH, LOG_FILE, SHOW_LOG, OPTIMIZED_CONNECTION)
+    Set objShell = CreateObject("WScript.Shell")
+    PYTHONPATH = objShell.ExpandEnvironmentStrings(PYTHONPATH)
+    PYTHONPATH = Replace(PYTHONPATH, "\", "/")
     Tail = " -c ""import sys;sys.path.extend(r'" & PYTHONPATH & "'.split(';'));import xlwings.server; xlwings.server.serve('$(CLSID)')"""
     If PYTHON_WIN = "" Then
         XLPyCommand = "pythonw.exe" + Tail
